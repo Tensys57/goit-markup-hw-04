@@ -54,7 +54,7 @@
     </header>
     <!-- Main Page -->
     <main>
-      <!-- Hero Section -->
+      <!-------------------- Hero Section -------------->
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
@@ -62,12 +62,17 @@
         </div>
       </section>
 
-      <!-- Features of the company -->
+      <!------------- Features of the company ------------>
       <section class="section features-title">
         <div class="container">
           <h2 class="section-title visually-hidden">Our Features</h2>
           <ul class="feature-list">
             <li class="feature-list-item">
+              <button class="feature-list-button">
+                <svg class="feature-icon">
+                  <use href="./images/icons.svg#antenna"></use>
+                </svg>
+              </button>
               <h3 class="features-title">Strategy</h3>
               <p class="feature-list-description">
                 Our goal is to identify the business problem to walk away with
@@ -75,6 +80,11 @@
               </p>
             </li>
             <li class="feature-list-item">
+              <button class="feature-list-button">
+                <svg class="feature-icon">
+                  <use href="./images/icons.svg#clock"></use>
+                </svg>
+              </button>
               <h3 class="features-title">Punctuality</h3>
               <p class="feature-list-description">
                 Bring the key message to the brand's audience for the best price
@@ -82,6 +92,11 @@
               </p>
             </li>
             <li class="feature-list-item">
+              <button class="feature-list-button">
+                <svg class="feature-icon">
+                  <use href="./images/icons.svg#diagram"></use>
+                </svg>
+              </button>
               <h3 class="features-title">Diligence</h3>
               <p class="feature-list-description">
                 Research and confirm brands that present the strongest digital
@@ -89,6 +104,11 @@
               </p>
             </li>
             <li class="feature-list-item">
+              <button class="feature-list-button">
+                <svg class="feature-icon">
+                  <use href="./images/icons.svg#astronaut"></use>
+                </svg>
+              </button>
               <h3 class="features-title">Technologies</h3>
               <p class="feature-list-description">
                 Design practice focused on digital experiences. We bring forth a
@@ -98,7 +118,8 @@
           </ul>
         </div>
       </section>
-      <!-- Products -->
+
+      <!------------------- Products ------------------->
       <section class="section products-list">
         <div class="container">
           <h2 class="section-title">What are we doing</h2>
@@ -127,13 +148,14 @@
           </ul>
         </div>
       </section>
-      <!-- The team -->
+
+      <!------------------- Our Team --------------->
       <section class="section team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list">
             <li class="item">
-              <div class="team-name">
+              <div class="team-card">
                 <img
                   class="team-portrait"
                   src="./images/img-team-1.jpg"
@@ -141,18 +163,42 @@
                   width="264"
                 />
                 <h3 class="team-title">Mark Guerrero</h3>
-                <p class="function">Product Designer</p>
-                <ul class="list">
-                  <li><a href="" aria-label="inatagram-link"></a></li>
-                  <li><a href="" aria-label="twitter-link"></a></li>
-                  <li><a href="" aria-label="facebook-link"></a></li>
-                  <li><a href="" aria-label="linkedin-link"></a></li>
+                <p class="team-function">Product Designer</p>
+                <ul class="team-social-list">
+                  <li>
+                    <a class="team-social-link" href="">
+                      <svg class="team-social-icon">
+                        <use href="./images/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team-social-link" href="">
+                      <svg class="team-social-icon">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team-social-link" href="">
+                      <svg class="team-social-icon">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team-social-link" href="">
+                      <svg class="team-social-icon">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </li>
 
             <li class="item">
-              <div class="team-name">
+              <div class="team-card">
                 <img
                   class="team-portrait"
                   src="./images/img-team-2.jpg"
@@ -160,7 +206,7 @@
                   width="264"
                 />
                 <h3 class="team-title">Tom Ford</h3>
-                <p class="function">Frontend Developer</p>
+                <p class="team-function">Frontend Developer</p>
                 <ul class="list">
                   <li><a href="" aria-label="inatagram-link"></a></li>
                   <li><a href="" aria-label="twitter-link"></a></li>
@@ -171,7 +217,7 @@
             </li>
 
             <li class="item">
-              <div class="team-name">
+              <div class="team-card">
                 <img
                   class="team-portrait"
                   src="./images/img-team-3.jpg"
@@ -179,7 +225,7 @@
                   width="264"
                 />
                 <h3 class="team-title">Camila Garcia</h3>
-                <p class="function">Marketing</p>
+                <p class="team-function">Marketing</p>
                 <ul class="list">
                   <li><a href="" aria-label="inatagram-link"></a></li>
                   <li><a href="" aria-label="twitter-link"></a></li>
@@ -190,7 +236,7 @@
             </li>
 
             <li class="item">
-              <div class="team-name">
+              <div class="team-card">
                 <img
                   class="team-portrait"
                   src="./images/img-team-4.jpg"
@@ -198,7 +244,7 @@
                   width="264"
                 />
                 <h3 class="team-title">Daniel Wilson</h3>
-                <p class="function">UI Designer</p>
+                <p class="team-function">UI Designer</p>
                 <ul class="list">
                   <li><a href="" aria-label="inatagram-link"></a></li>
                   <li><a href="" aria-label="twitter-link"></a></li>
