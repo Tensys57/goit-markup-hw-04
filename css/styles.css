@@ -175,7 +175,6 @@ nav {
   color: var(--primary-bg-color);
   font-size: 56px;
   line-height: 1.07;
-  /* display: inline-block; */
   width: 496px;
   margin: 0 auto 48px;
 }
@@ -296,26 +295,32 @@ nav {
 
 .team-function {
   text-align: center;
-  padding-bottom: 32px;
+  margin-bottom: 8px;
 }
 
 .team-social-list {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding-bottom: 32px;
 }
 
 .team-social-link {
-  display: inline-block;
+  display: flex;
   width: 40px;
   height: 40px;
   background-color: var(--normal-button-color);
   border-radius: 20px;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
 }
 
 .team-social-icon {
   width: 16px;
   height: 16px;
-  color: var(--primary-bg-color);
+  fill: var(--primary-bg-color);
+  vertical-align: middle;
 }
 
 /* Footer */
