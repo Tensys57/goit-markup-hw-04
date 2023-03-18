@@ -9,6 +9,7 @@
   --normal-button-bg: #f4f4fd;
   --hover-button-bg: #404bbf;
   --button-border-color: #9747ff;
+  --light-slate-color: #8e8f99;
 }
 
 .visually-hidden {
@@ -27,6 +28,7 @@
 
 body {
   background-color: var(--primary-bg-color);
+  max-width: 1440px;
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -323,7 +325,34 @@ nav {
   vertical-align: middle;
 }
 
-/* Footer */
+/* ----------- Customers ----------------- */
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customers-list-items {
+}
+
+.customer-list-link {
+  display: flex;
+  color: var(--light-slate-color);
+  width: 168px;
+  height: 88px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--light-slate-color);
+  border-radius: 4px;
+}
+
+.customer-list-icon {
+  width: 104px;
+  height: 56px;
+  fill: var(--light-slate-color);
+}
+
+/* -------------- Footer -----------------*/
 
 .footer {
   background-color: var(--hero-bg-color);
@@ -340,7 +369,7 @@ nav {
   color: var(--primary-bg-color);
 }
 
-/* Portfolio */
+/* ----------------- Portfolio -------------- */
 .filters-list {
   display: flex;
   justify-content: center;
