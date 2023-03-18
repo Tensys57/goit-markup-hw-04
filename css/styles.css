@@ -135,8 +135,8 @@ nav {
   margin-right: 40px;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--hover-button-bg);
 }
 
